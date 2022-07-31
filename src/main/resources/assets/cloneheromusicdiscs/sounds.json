@@ -1,0 +1,42 @@
+{
+	"music_disc.coalescenceandsegmentation": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/coalescenceandsegmentation",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
+	"music_disc.constellation": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/constellation",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
+	"music_disc.reminisce": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/reminisce",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
+	"music_disc.solarstorm": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/solarstorm",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	}
+}

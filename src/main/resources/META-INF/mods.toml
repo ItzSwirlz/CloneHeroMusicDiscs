@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="GNU General Public License v3+"
+issueTrackerURL="https://github.com/ItzSwirlz/CloneHeroMusicDiscs/issues/"
+[[mods]]
+modId="cloneheromusicdiscs"
+version="${file.jarVersion}"
+
+displayName="Clone Hero Music Discs" #mandatory
+# A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="examplemod.png" #optional
+# A text field displayed in the mod UI
+credits="All the composers!"
+authors="Joshua Peisach (ItzSwirlz)"
+description='''
+This mod takes famous songs in Clone Hero and creates music discs for them!
+
+These songs were all added with consent of the original composer.
+
+Visit the GitHub page to suggest a new song.
+'''
+
+[[dependencies.cloneheromusicdiscs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
