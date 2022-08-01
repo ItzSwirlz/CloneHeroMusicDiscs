@@ -11,6 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class CHMDSoundEvents {
 	private static final DeferredRegister<SoundEvent> SOUNDEVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, "cloneheromusicdiscs");
 
+	public static final RegistryObject<SoundEvent> CELESTIAL_GROOVE = SOUNDEVENTS.register("music_disc.celestialgroove", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.celestialgroove")));
 	public static final RegistryObject<SoundEvent> COALESCENCE_AND_SEGMENTATION = SOUNDEVENTS.register("music_disc.coalescenceandsegmentation", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.coalescenceandsegmentation")));
     public static final RegistryObject<SoundEvent> CONSTELLATION = SOUNDEVENTS.register("music_disc.constellation", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.constellation")));
     public static final RegistryObject<SoundEvent> EPIDOX = SOUNDEVENTS.register("music_disc.epidox", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.epidox")));
