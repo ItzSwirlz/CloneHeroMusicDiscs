@@ -5,7 +5,7 @@
 			{
 				"name": "cloneheromusicdiscs:records/coalescenceandsegmentation",
 				"volume": 1.0,
-				"stream": true
+				"stream": false
 			}
 		]		
 	},
@@ -19,11 +19,41 @@
 			}
 		]		
 	},
+	"music_disc.epidox": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/epidox",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
+	"music_disc.mindsofthemad": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/mindsofthemad",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
 	"music_disc.reminisce": {
 		"category": "record",
 		"sounds": [
 			{
 				"name": "cloneheromusicdiscs:records/reminisce",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
+	},
+	"music_disc.obsidian": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/obsidian",
 				"volume": 1.0,
 				"stream": true
 			}
