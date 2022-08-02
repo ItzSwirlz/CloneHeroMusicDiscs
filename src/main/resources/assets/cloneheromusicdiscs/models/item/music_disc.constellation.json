@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "cloneheromusicdiscs:item/music_disc_constellation"
+	}
+}
