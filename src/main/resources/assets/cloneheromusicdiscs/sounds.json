@@ -78,5 +78,15 @@
 				"stream": true
 			}
 		]		
+	},
+		"music_disc.soulless": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "cloneheromusicdiscs:records/soulless",
+				"volume": 1.0,
+				"stream": true
+			}
+		]		
 	}
 }

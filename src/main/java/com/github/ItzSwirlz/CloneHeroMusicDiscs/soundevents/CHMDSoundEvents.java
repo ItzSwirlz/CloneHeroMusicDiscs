@@ -20,6 +20,9 @@ public class CHMDSoundEvents {
     public static final RegistryObject<SoundEvent> REMINISCE = SOUNDEVENTS.register("music_disc.reminisce", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.reminisce")));
     public static final RegistryObject<SoundEvent> SOLAR_STORM = SOUNDEVENTS.register("music_disc.solarstorm", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.solarstorm")));
 
+    // Soulless series
+    public static final RegistryObject<SoundEvent> SOULLESS = SOUNDEVENTS.register("music_disc.soulless", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.soulless")));
+
     public static void registerSoundEvents() {
 		SOUNDEVENTS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
