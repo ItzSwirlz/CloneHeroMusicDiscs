@@ -15,7 +15,7 @@
 			{
 				"name": "cloneheromusicdiscs:records/coalescenceandsegmentation",
 				"volume": 1.0,
-				"stream": false
+				"stream": true
 			}
 		]		
 	},
@@ -79,14 +79,64 @@
 			}
 		]		
 	},
-		"music_disc.soulless": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/soulless",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
+	"music_disc.soulless": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soulless",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
+	},
+	"music_disc.soullesstwo": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soullesstwo",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
+	},
+	"music_disc.soullessthree": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soullessthree",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
+	},
+	"music_disc.soullessfour": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soullessfour",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
+	},
+	"music_disc.soullessfive": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soullessfive",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
+	},
+	"music_disc.soullesssix": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/soullesssix",
+			"volume": 1.0,
+			"stream": true
+		}
+	]		
 	}
 }

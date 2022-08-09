@@ -25,6 +25,11 @@ public class CHMDItems {
 
     // Soulless series
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS = ITEMS.register("music_disc.soulless", () -> new RecordItem(25, CHMDSoundEvents.SOULLESS, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 8280));
+    public static final RegistryObject<Item> MUSIC_DISC_SOULLESS2 = ITEMS.register("music_disc.soullesstwo", () -> new RecordItem(26, CHMDSoundEvents.SOULLESS2, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 6680));
+    public static final RegistryObject<Item> MUSIC_DISC_SOULLESS3 = ITEMS.register("music_disc.soullessthree", () -> new RecordItem(27, CHMDSoundEvents.SOULLESS3, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 8120));
+    public static final RegistryObject<Item> MUSIC_DISC_SOULLESS4 = ITEMS.register("music_disc.soullessfour", () -> new RecordItem(28, CHMDSoundEvents.SOULLESS4, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 15480));
+    public static final RegistryObject<Item> MUSIC_DISC_SOULLESS5 = ITEMS.register("music_disc.soullessfive", () -> new RecordItem(29, CHMDSoundEvents.SOULLESS5, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 20400));
+    public static final RegistryObject<Item> MUSIC_DISC_SOULLESS6 = ITEMS.register("music_disc.soullesssix", () -> new RecordItem(30, CHMDSoundEvents.SOULLESS6, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 1440));
 
     public static void registerItems() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
