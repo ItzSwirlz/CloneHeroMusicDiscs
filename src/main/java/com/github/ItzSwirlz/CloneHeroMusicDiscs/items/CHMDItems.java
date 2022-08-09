@@ -34,5 +34,5 @@ public class CHMDItems {
     public static void registerItems() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
-    
+
 }

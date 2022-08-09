@@ -7,7 +7,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-
 public class CHMDSoundEvents {
 	private static final DeferredRegister<SoundEvent> SOUNDEVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, "cloneheromusicdiscs");
 
@@ -31,6 +30,6 @@ public class CHMDSoundEvents {
     public static void registerSoundEvents() {
 		SOUNDEVENTS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
-    
+
 }
  
