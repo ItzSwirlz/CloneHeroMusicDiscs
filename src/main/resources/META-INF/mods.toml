@@ -10,8 +10,7 @@ displayName="Clone Hero Music Discs"
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 displayURL="https://github.com/ItzSwirlz/CloneHeroMusicDiscs/"
-# A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="logo.png"
 credits="All the composers!"
 authors="Joshua Peisach (ItzSwirlz)"
 description='''
