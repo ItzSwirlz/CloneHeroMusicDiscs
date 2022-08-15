@@ -23,7 +23,9 @@ If you have a song that is either a Guitar Hero/Rock Band/Rock Band Network cust
 If you don't want it, just don't use it. I know you can listen to music in the background, but this is kind of an experiment, and a for-fun project. I think that for SMP servers, esepcially for mini CH communities this will be great. Jamming to a song while building something could be fun. Speaking of SMP servers,
 
 ## Is there server support?
-I'll admit, I've basically **never** touched server modding. I've always been a client-side modder. Server support is a goal I do want to reach and will get there if there is demand for it, but this would require the server running on Forge along with every single user that players on it, which may be discouraging to some other players who do not feel like installing Forge plus some random mod they may not care about. And that does not factor in it may force servers to give up plugins; and I don't want to get into that until I have a good reason to. But believe me, I am all for jumping on the band wagon.
+I'll admit, I've basically **never** touched server modding. I've always been a client-sider modder, however I can confirm that by testing, a forge server with this plugin does indeed work. However, this means sacrificing plugins unless you have a mod that lets you combine Forge mods and plugins, examples being [Magma](https://magmafoundation.org), [the Sponge API](https://spongepowered.org) or any other hybrid-server client. This can come with trade-offs; devs should discuss with admins and the playerbase before switching and adding this mod in.
+
+As for 1.19x, the only project I see in active development for a hybrid Forge + plugin server is [Mohist](https://mohistmc.com), which is still under development. Once it gets finish, I am all in for supporting it.
 
 ## I spotted a bug/I have an idea!
 [File an issue!](https://github.com/ItzSwirlz/CloneHeroMusicDiscs/issues) . I'm open to any ideas and am a critic of myself.
