@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class CHMDSoundEvents {
 	private static final DeferredRegister<SoundEvent> SOUNDEVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, "cloneheromusicdiscs");
 
+	// Songs added version 1.0.0
     public static final RegistryObject<SoundEvent> CELESTIAL_GROOVE = SOUNDEVENTS.register("music_disc.celestialgroove", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.celestialgroove")));
     public static final RegistryObject<SoundEvent> COALESCENCE_AND_SEGMENTATION = SOUNDEVENTS.register("music_disc.coalescenceandsegmentation", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.coalescenceandsegmentation")));
     public static final RegistryObject<SoundEvent> CONSTELLATION = SOUNDEVENTS.register("music_disc.constellation", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.constellation")));
@@ -26,6 +27,8 @@ public class CHMDSoundEvents {
     public static final RegistryObject<SoundEvent> SOULLESS4 = SOUNDEVENTS.register("music_disc.soullessfour", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.soullessfour")));
     public static final RegistryObject<SoundEvent> SOULLESS5 = SOUNDEVENTS.register("music_disc.soullessfive", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.soullessfive")));
     public static final RegistryObject<SoundEvent> SOULLESS6 = SOUNDEVENTS.register("music_disc.soullesssix", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.soullesssix")));
+
+    public static final RegistryObject<SoundEvent> CODES = SOUNDEVENTS.register("music_disc.codes", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.codes")));
 
     public static void registerSoundEvents() {
 		SOUNDEVENTS.register(FMLJavaModLoadingContext.get().getModEventBus());

@@ -14,6 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class CHMDItems {
 	private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "cloneheromusicdiscs");
 
+	// Songs added version 1.0.0
     public static final RegistryObject<Item> MUSIC_DISC_CELESTIAL_GROOVE = ITEMS.register("music_disc.celestialgroove", () -> new RecordItem(17, CHMDSoundEvents.CELESTIAL_GROOVE, (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE), 7160));
     public static final RegistryObject<Item> MUSIC_DISC_COALESCENCE_AND_SEGMENTATION = ITEMS.register("music_disc.coalescenceandsegmentation", () -> new RecordItem(18, CHMDSoundEvents.COALESCENCE_AND_SEGMENTATION, (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE), 25160));
     public static final RegistryObject<Item> MUSIC_DISC_CONSTELLATION = ITEMS.register("music_disc.constellation", () -> new RecordItem(19, CHMDSoundEvents.CONSTELLATION, (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE), 18280));
@@ -30,6 +31,8 @@ public class CHMDItems {
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS4 = ITEMS.register("music_disc.soullessfour", () -> new RecordItem(28, CHMDSoundEvents.SOULLESS4, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 15480));
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS5 = ITEMS.register("music_disc.soullessfive", () -> new RecordItem(29, CHMDSoundEvents.SOULLESS5, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 20400));
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS6 = ITEMS.register("music_disc.soullesssix", () -> new RecordItem(30, CHMDSoundEvents.SOULLESS6, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 1440));
+
+    public static final RegistryObject<Item> CODES = ITEMS.register("music_disc.codes", () -> new RecordItem(31, CHMDSoundEvents.CODES, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)).rarity(Rarity.RARE), 4560));
 
     public static void registerItems() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());

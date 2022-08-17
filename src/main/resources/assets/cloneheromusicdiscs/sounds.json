@@ -138,5 +138,15 @@
 			"stream": true
 		}
 	]		
+	},
+	"music_disc.codes": {
+	"category": "record",
+	"sounds": [
+		{
+			"name": "cloneheromusicdiscs:records/codes",
+			"volume": 1.0,
+			"stream": true
+		}
+	]
 	}
 }
