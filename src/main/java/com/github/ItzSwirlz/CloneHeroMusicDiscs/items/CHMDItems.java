@@ -32,7 +32,9 @@ public class CHMDItems {
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS5 = ITEMS.register("music_disc.soullessfive", () -> new RecordItem(29, CHMDSoundEvents.SOULLESS5, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 20400));
     public static final RegistryObject<Item> MUSIC_DISC_SOULLESS6 = ITEMS.register("music_disc.soullesssix", () -> new RecordItem(30, CHMDSoundEvents.SOULLESS6, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 1440));
 
-    public static final RegistryObject<Item> CODES = ITEMS.register("music_disc.codes", () -> new RecordItem(31, CHMDSoundEvents.CODES, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)).rarity(Rarity.RARE), 4560));
+    public static final RegistryObject<Item> MUSIC_DISC_CODES = ITEMS.register("music_disc.codes", () -> new RecordItem(31, CHMDSoundEvents.CODES, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)).rarity(Rarity.RARE), 4560));
+    public static final RegistryObject<Item> MUSIC_DISC_COSMIC_EMBASSY = ITEMS.register("music_disc.cosmicembassy", () -> new RecordItem(32, CHMDSoundEvents.COSMIC_EMBASSY, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 4800));
+    public static final RegistryObject<Item> MUSIC_DISC_PENGER = ITEMS.register("music_disc.penger", () -> new RecordItem(33, CHMDSoundEvents.PENGER, (new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)), 6600));
 
     public static void registerItems() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());

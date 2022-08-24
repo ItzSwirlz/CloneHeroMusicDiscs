@@ -29,6 +29,8 @@ public class CHMDSoundEvents {
     public static final RegistryObject<SoundEvent> SOULLESS6 = SOUNDEVENTS.register("music_disc.soullesssix", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.soullesssix")));
 
     public static final RegistryObject<SoundEvent> CODES = SOUNDEVENTS.register("music_disc.codes", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.codes")));
+    public static final RegistryObject<SoundEvent> COSMIC_EMBASSY = SOUNDEVENTS.register("music_disc.cosmicembassy", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.cosmicembassy")));
+    public static final RegistryObject<SoundEvent> PENGER = SOUNDEVENTS.register("music_disc.penger", () -> new SoundEvent(new ResourceLocation("cloneheromusicdiscs", "music_disc.penger")));
 
     public static void registerSoundEvents() {
 		SOUNDEVENTS.register(FMLJavaModLoadingContext.get().getModEventBus());

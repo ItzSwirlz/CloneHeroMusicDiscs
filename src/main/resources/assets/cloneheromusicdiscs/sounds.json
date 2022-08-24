@@ -1,152 +1,172 @@
 {
-	"music_disc.celestialgroove": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/celestialgroove",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.coalescenceandsegmentation": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/coalescenceandsegmentation",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.constellation": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/constellation",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.epidox": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/epidox",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.mindsofthemad": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/mindsofthemad",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.reminisce": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/reminisce",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.obsidian": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/obsidian",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.solarstorm": {
-		"category": "record",
-		"sounds": [
-			{
-				"name": "cloneheromusicdiscs:records/solarstorm",
-				"volume": 1.0,
-				"stream": true
-			}
-		]		
-	},
-	"music_disc.soulless": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soulless",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.soullesstwo": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soullesstwo",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.soullessthree": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soullessthree",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.soullessfour": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soullessfour",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.soullessfive": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soullessfive",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.soullesssix": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/soullesssix",
-			"volume": 1.0,
-			"stream": true
-		}
-	]		
-	},
-	"music_disc.codes": {
-	"category": "record",
-	"sounds": [
-		{
-			"name": "cloneheromusicdiscs:records/codes",
-			"volume": 1.0,
-			"stream": true
-		}
-	]
-	}
+  "music_disc.celestialgroove": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/celestialgroove",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.coalescenceandsegmentation": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/coalescenceandsegmentation",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.constellation": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/constellation",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.epidox": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/epidox",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.mindsofthemad": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/mindsofthemad",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reminisce": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/reminisce",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.obsidian": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/obsidian",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.solarstorm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/solarstorm",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soulless": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soulless",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soullesstwo": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soullesstwo",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soullessthree": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soullessthree",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soullessfour": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soullessfour",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soullessfive": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soullessfive",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.soullesssix": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/soullesssix",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.codes": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/codes",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cosmicembassy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/cosmicembassy",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.penger": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cloneheromusicdiscs:records/penger",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  }
 }
